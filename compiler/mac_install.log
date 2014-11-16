@@ -1,2 +1,835 @@
-Sat Nov 15 16:52:13 PST 2014 Starting ./mac_install
-Sat Nov 15 16:52:13 PST 2014 Executing curl -L0 https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q1-update/+download/gcc-arm-none-eabi-4_8-2014q1-20140314-mac.tar.bz2
+Sat Nov 15 16:54:42 PST 2014 Starting ./mac_install
+Sat Nov 15 16:54:42 PST 2014 Executing curl -L0 https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q1-update/+download/gcc-arm-none-eabi-4_8-2014q1-20140314-mac.tar.bz2
+Sat Nov 15 16:55:54 PST 2014 Validating md5 signature of GNU Tools for ARM Embedded Processors
+Sat Nov 15 16:55:54 PST 2014 Executing tar xf /Users/suryanshu/buckLabs/compiler/gcc-arm-none-eabi-4_8-2014q1-20140314-mac.tar.bz2
+Sat Nov 15 16:56:12 PST 2014 Executing mv /Users/suryanshu/buckLabs/compiler/gcc-arm-none-eabi-4_8-2014q1 /Users/suryanshu/buckLabs/compiler/gcc-arm-none-eabi
+Sat Nov 15 16:56:12 PST 2014 Executing cp /Users/suryanshu/buckLabs/compiler/external/osx64/arm-none-eabi-gdb /Users/suryanshu/buckLabs/compiler/gcc-arm-none-eabi/bin/
+Sat Nov 15 16:56:12 PST 2014 Executing /Users/suryanshu/buckLabs/compiler/external/osx64/make clean
+Cleaning samples
+Cleaning HelloWorld/LPC1768
+Cleaning HelloWorld/LPC11U24
+Cleaning HelloWorld/KL25Z
+Cleaning HelloWorld/NRF51822
+Cleaning HelloWorld/NUCLEO_F401RE
+Cleaning Blink/LPC1768
+Cleaning Ticker/LPC1768
+Cleaning Ticker/LPC11U24
+Cleaning Ticker/KL25Z
+Cleaning Ticker/NRF51822
+Cleaning StdIO/LPC1768
+Cleaning StdIO/LPC11U24
+Cleaning StdIO/KL25Z
+Cleaning StdIO/NRF51822
+Cleaning LocalFileSystem/LPC1768
+Cleaning LocalFileSystem/LPC11U24
+Cleaning FileTest/LPC1768
+Cleaning FileTest/LPC11U24
+Cleaning SdPerf/LPC1768
+Cleaning TCPSocket_HelloWorld/LPC1768
+Cleaning USBMouse/LPC1768
+Cleaning USBMouse/LPC11U24
+Cleaning USBMouse/KL25Z
+Cleaning USBHostMouse/LPC1768
+Cleaning USBHostKeyboard/LPC1768
+Cleaning USBHostMSD/LPC1768
+Cleaning USBHostHub/LPC1768
+Cleaning USBHostSerial/LPC1768
+Cleaning BLEHeartRate/NRF51822
+Sat Nov 15 16:56:17 PST 2014 Executing /Users/suryanshu/buckLabs/compiler/external/osx64/make
+Building samples
+Building HelloWorld
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/analogin_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/analogout_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/can_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/ethernet_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/gpio_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/gpio_irq_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/i2c_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/pinmap.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/port_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/pwmout_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/rtc_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/serial_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/sleep.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/spi_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/us_ticker.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_NXP/TARGET_LPC176X/cmsis_nvic.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_NXP/TARGET_LPC176X/system_LPC17xx.c
+Compiling ../../external/mbed/libraries/mbed/common/assert.c
+Compiling ../../external/mbed/libraries/mbed/common/board.c
+Compiling ../../external/mbed/libraries/mbed/common/error.c
+Compiling ../../external/mbed/libraries/mbed/common/exit.c
+Compiling ../../external/mbed/libraries/mbed/common/gpio.c
+Compiling ../../external/mbed/libraries/mbed/common/mbed_interface.c
+Compiling ../../external/mbed/libraries/mbed/common/pinmap_common.c
+Compiling ../../external/mbed/libraries/mbed/common/rtc_time.c
+Compiling ../../external/mbed/libraries/mbed/common/semihost_api.c
+Compiling ../../external/mbed/libraries/mbed/common/us_ticker_api.c
+Compiling ../../external/mbed/libraries/mbed/common/wait_api.c
+Compiling ../../external/mbed/libraries/mbed/common/BusIn.cpp
+Compiling ../../external/mbed/libraries/mbed/common/BusInOut.cpp
+Compiling ../../external/mbed/libraries/mbed/common/BusOut.cpp
+Compiling ../../external/mbed/libraries/mbed/common/CAN.cpp
+Compiling ../../external/mbed/libraries/mbed/common/CallChain.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Ethernet.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileBase.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileLike.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FilePath.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileSystemLike.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FunctionPointer.cpp
+Compiling ../../external/mbed/libraries/mbed/common/I2C.cpp
+Compiling ../../external/mbed/libraries/mbed/common/I2CSlave.cpp
+Compiling ../../external/mbed/libraries/mbed/common/InterruptIn.cpp
+Compiling ../../external/mbed/libraries/mbed/common/InterruptManager.cpp
+Compiling ../../external/mbed/libraries/mbed/common/LocalFileSystem.cpp
+Compiling ../../external/mbed/libraries/mbed/common/RawSerial.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SPI.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SPISlave.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Serial.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SerialBase.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Stream.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Ticker.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Timeout.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Timer.cpp
+Compiling ../../external/mbed/libraries/mbed/common/TimerEvent.cpp
+Compiling ../../external/mbed/libraries/mbed/common/retarget.cpp
+Assembling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_NXP/TARGET_LPC176X/TOOLCHAIN_GCC_ARM/startup_LPC17xx.s
+Linking release library
+Linking LPC1768/HelloWorld.elf
+Extracting LPC1768/HelloWorld.bin
+Extracting LPC1768/HelloWorld.hex
+Extracting disassembly to LPC1768/HelloWorld.disasm
+   text	   data	    bss	    dec	    hex	filename
+   9124	    120	    572	   9816	   2658	LPC1768/HelloWorld.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/analogin_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/gpio_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/gpio_irq_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/i2c_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/pinmap.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/port_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/pwmout_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/serial_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/sleep.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/spi_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/us_ticker.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC11UXX/TARGET_LPC11U24_401/PeripheralPins.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_NXP/TARGET_LPC11UXX/cmsis_nvic.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_NXP/TARGET_LPC11UXX/system_LPC11Uxx.c
+Compiling ../../external/mbed/libraries/mbed/common/assert.c
+Compiling ../../external/mbed/libraries/mbed/common/board.c
+Compiling ../../external/mbed/libraries/mbed/common/error.c
+Compiling ../../external/mbed/libraries/mbed/common/exit.c
+Compiling ../../external/mbed/libraries/mbed/common/gpio.c
+Compiling ../../external/mbed/libraries/mbed/common/mbed_interface.c
+Compiling ../../external/mbed/libraries/mbed/common/pinmap_common.c
+Compiling ../../external/mbed/libraries/mbed/common/rtc_time.c
+Compiling ../../external/mbed/libraries/mbed/common/semihost_api.c
+Compiling ../../external/mbed/libraries/mbed/common/us_ticker_api.c
+Compiling ../../external/mbed/libraries/mbed/common/wait_api.c
+Compiling ../../external/mbed/libraries/mbed/common/BusIn.cpp
+Compiling ../../external/mbed/libraries/mbed/common/BusInOut.cpp
+Compiling ../../external/mbed/libraries/mbed/common/BusOut.cpp
+Compiling ../../external/mbed/libraries/mbed/common/CAN.cpp
+Compiling ../../external/mbed/libraries/mbed/common/CallChain.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Ethernet.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileBase.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileLike.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FilePath.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileSystemLike.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FunctionPointer.cpp
+Compiling ../../external/mbed/libraries/mbed/common/I2C.cpp
+Compiling ../../external/mbed/libraries/mbed/common/I2CSlave.cpp
+Compiling ../../external/mbed/libraries/mbed/common/InterruptIn.cpp
+Compiling ../../external/mbed/libraries/mbed/common/InterruptManager.cpp
+Compiling ../../external/mbed/libraries/mbed/common/LocalFileSystem.cpp
+Compiling ../../external/mbed/libraries/mbed/common/RawSerial.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SPI.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SPISlave.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Serial.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SerialBase.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Stream.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Ticker.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Timeout.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Timer.cpp
+Compiling ../../external/mbed/libraries/mbed/common/TimerEvent.cpp
+Compiling ../../external/mbed/libraries/mbed/common/retarget.cpp
+Assembling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_NXP/TARGET_LPC11UXX/TOOLCHAIN_GCC_ARM/startup_LPC11xx.s
+Linking release library
+Linking LPC11U24/HelloWorld.elf
+Extracting LPC11U24/HelloWorld.bin
+Extracting LPC11U24/HelloWorld.hex
+Extracting disassembly to LPC11U24/HelloWorld.disasm
+   text	   data	    bss	    dec	    hex	filename
+   7852	    124	    344	   8320	   2080	LPC11U24/HelloWorld.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/analogin_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/analogout_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/gpio_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/i2c_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/pinmap.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/port_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/pwmout_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/rtc_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/sleep.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/us_ticker.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z/PeripheralPins.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z/gpio_irq_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z/mbed_overrides.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z/serial_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z/spi_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z/cmsis_nvic.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z/system_MKL25Z4.c
+Compiling ../../external/mbed/libraries/mbed/common/assert.c
+Compiling ../../external/mbed/libraries/mbed/common/board.c
+Compiling ../../external/mbed/libraries/mbed/common/error.c
+Compiling ../../external/mbed/libraries/mbed/common/exit.c
+Compiling ../../external/mbed/libraries/mbed/common/gpio.c
+Compiling ../../external/mbed/libraries/mbed/common/mbed_interface.c
+Compiling ../../external/mbed/libraries/mbed/common/pinmap_common.c
+Compiling ../../external/mbed/libraries/mbed/common/rtc_time.c
+Compiling ../../external/mbed/libraries/mbed/common/semihost_api.c
+Compiling ../../external/mbed/libraries/mbed/common/us_ticker_api.c
+Compiling ../../external/mbed/libraries/mbed/common/wait_api.c
+Compiling ../../external/mbed/libraries/mbed/common/BusIn.cpp
+Compiling ../../external/mbed/libraries/mbed/common/BusInOut.cpp
+Compiling ../../external/mbed/libraries/mbed/common/BusOut.cpp
+Compiling ../../external/mbed/libraries/mbed/common/CAN.cpp
+Compiling ../../external/mbed/libraries/mbed/common/CallChain.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Ethernet.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileBase.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileLike.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FilePath.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileSystemLike.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FunctionPointer.cpp
+Compiling ../../external/mbed/libraries/mbed/common/I2C.cpp
+Compiling ../../external/mbed/libraries/mbed/common/I2CSlave.cpp
+Compiling ../../external/mbed/libraries/mbed/common/InterruptIn.cpp
+Compiling ../../external/mbed/libraries/mbed/common/InterruptManager.cpp
+Compiling ../../external/mbed/libraries/mbed/common/LocalFileSystem.cpp
+Compiling ../../external/mbed/libraries/mbed/common/RawSerial.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SPI.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SPISlave.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Serial.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SerialBase.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Stream.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Ticker.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Timeout.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Timer.cpp
+Compiling ../../external/mbed/libraries/mbed/common/TimerEvent.cpp
+Compiling ../../external/mbed/libraries/mbed/common/retarget.cpp
+Assembling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z/TOOLCHAIN_GCC_ARM/startup_MKL25Z4.s
+Linking release library
+Linking KL25Z/HelloWorld.elf
+Extracting KL25Z/HelloWorld.bin
+Extracting KL25Z/HelloWorld.hex
+Extracting disassembly to KL25Z/HelloWorld.disasm
+   text	   data	    bss	    dec	    hex	filename
+   8836	    124	    352	   9312	   2460	KL25Z/HelloWorld.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/analogin_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/gpio_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/gpio_irq_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/i2c_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/pinmap.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/port_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/pwmout_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/serial_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/sleep.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/spi_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/us_ticker.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/Lib/app_common/app_timer.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/cmsis_nvic.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/system_nrf51822.c
+Compiling ../../external/mbed/libraries/mbed/common/assert.c
+Compiling ../../external/mbed/libraries/mbed/common/board.c
+Compiling ../../external/mbed/libraries/mbed/common/error.c
+Compiling ../../external/mbed/libraries/mbed/common/exit.c
+Compiling ../../external/mbed/libraries/mbed/common/gpio.c
+Compiling ../../external/mbed/libraries/mbed/common/mbed_interface.c
+Compiling ../../external/mbed/libraries/mbed/common/pinmap_common.c
+Compiling ../../external/mbed/libraries/mbed/common/rtc_time.c
+Compiling ../../external/mbed/libraries/mbed/common/semihost_api.c
+Compiling ../../external/mbed/libraries/mbed/common/us_ticker_api.c
+Compiling ../../external/mbed/libraries/mbed/common/wait_api.c
+Compiling ../../external/mbed/libraries/mbed/common/BusIn.cpp
+Compiling ../../external/mbed/libraries/mbed/common/BusInOut.cpp
+Compiling ../../external/mbed/libraries/mbed/common/BusOut.cpp
+Compiling ../../external/mbed/libraries/mbed/common/CAN.cpp
+Compiling ../../external/mbed/libraries/mbed/common/CallChain.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Ethernet.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileBase.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileLike.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FilePath.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileSystemLike.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FunctionPointer.cpp
+Compiling ../../external/mbed/libraries/mbed/common/I2C.cpp
+Compiling ../../external/mbed/libraries/mbed/common/I2CSlave.cpp
+Compiling ../../external/mbed/libraries/mbed/common/InterruptIn.cpp
+Compiling ../../external/mbed/libraries/mbed/common/InterruptManager.cpp
+Compiling ../../external/mbed/libraries/mbed/common/LocalFileSystem.cpp
+Compiling ../../external/mbed/libraries/mbed/common/RawSerial.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SPI.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SPISlave.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Serial.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SerialBase.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Stream.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Ticker.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Timeout.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Timer.cpp
+Compiling ../../external/mbed/libraries/mbed/common/TimerEvent.cpp
+Compiling ../../external/mbed/libraries/mbed/common/retarget.cpp
+Assembling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/TOOLCHAIN_GCC_ARM/startup_NRF51822.s
+Linking release library
+Linking NRF51822/HelloWorld.elf
+Extracting NRF51822/HelloWorld.bin
+Extracting NRF51822/HelloWorld.hex
+Extracting disassembly to NRF51822/HelloWorld.disasm
+   text	   data	    bss	    dec	    hex	filename
+  94280	     12	    392	  94684	  171dc	NRF51822/HelloWorld.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/analogin_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/gpio_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/gpio_irq_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/i2c_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/mbed_overrides.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/pinmap.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/port_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/pwmout_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/rtc_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/serial_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/sleep.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/spi_api.c
+Compiling ../../external/mbed/libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE/us_ticker.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/cmsis_nvic.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/hal_tick.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_adc.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_adc_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_can.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_cortex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_crc.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_cryp.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_cryp_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_dac.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_dac_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_dcmi.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_dma.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_dma2d.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_dma_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_eth.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_flash.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_flash_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_flash_ramfunc.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_gpio.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_hash.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_hash_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_hcd.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_i2c.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_i2c_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_i2s.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_i2s_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_irda.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_iwdg.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_ltdc.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_nand.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_nor.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_pccard.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_pcd.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_pcd_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_pwr.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_pwr_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_rcc.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_rcc_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_rng.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_rtc.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_rtc_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_sai.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_sd.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_sdram.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_smartcard.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_spi.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_sram.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_tim.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_tim_ex.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_uart.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_usart.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_hal_wwdg.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_ll_fmc.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_ll_fsmc.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_ll_sdmmc.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/stm32f4xx_ll_usb.c
+Compiling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/system_stm32f4xx.c
+Compiling ../../external/mbed/libraries/mbed/common/assert.c
+Compiling ../../external/mbed/libraries/mbed/common/board.c
+Compiling ../../external/mbed/libraries/mbed/common/error.c
+Compiling ../../external/mbed/libraries/mbed/common/exit.c
+Compiling ../../external/mbed/libraries/mbed/common/gpio.c
+Compiling ../../external/mbed/libraries/mbed/common/mbed_interface.c
+Compiling ../../external/mbed/libraries/mbed/common/pinmap_common.c
+Compiling ../../external/mbed/libraries/mbed/common/rtc_time.c
+Compiling ../../external/mbed/libraries/mbed/common/semihost_api.c
+Compiling ../../external/mbed/libraries/mbed/common/us_ticker_api.c
+Compiling ../../external/mbed/libraries/mbed/common/wait_api.c
+Compiling ../../external/mbed/libraries/mbed/common/BusIn.cpp
+Compiling ../../external/mbed/libraries/mbed/common/BusInOut.cpp
+Compiling ../../external/mbed/libraries/mbed/common/BusOut.cpp
+Compiling ../../external/mbed/libraries/mbed/common/CAN.cpp
+Compiling ../../external/mbed/libraries/mbed/common/CallChain.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Ethernet.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileBase.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileLike.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FilePath.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FileSystemLike.cpp
+Compiling ../../external/mbed/libraries/mbed/common/FunctionPointer.cpp
+Compiling ../../external/mbed/libraries/mbed/common/I2C.cpp
+Compiling ../../external/mbed/libraries/mbed/common/I2CSlave.cpp
+Compiling ../../external/mbed/libraries/mbed/common/InterruptIn.cpp
+Compiling ../../external/mbed/libraries/mbed/common/InterruptManager.cpp
+Compiling ../../external/mbed/libraries/mbed/common/LocalFileSystem.cpp
+Compiling ../../external/mbed/libraries/mbed/common/RawSerial.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SPI.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SPISlave.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Serial.cpp
+Compiling ../../external/mbed/libraries/mbed/common/SerialBase.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Stream.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Ticker.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Timeout.cpp
+Compiling ../../external/mbed/libraries/mbed/common/Timer.cpp
+Compiling ../../external/mbed/libraries/mbed/common/TimerEvent.cpp
+Compiling ../../external/mbed/libraries/mbed/common/retarget.cpp
+Assembling ../../external/mbed/libraries/mbed/targets/cmsis/TARGET_STM/TARGET_NUCLEO_F401RE/TOOLCHAIN_GCC_ARM/startup_STM32F40x.s
+Linking release library
+Linking NUCLEO_F401RE/HelloWorld.elf
+Extracting NUCLEO_F401RE/HelloWorld.bin
+Extracting NUCLEO_F401RE/HelloWorld.hex
+Extracting disassembly to NUCLEO_F401RE/HelloWorld.disasm
+   text	   data	    bss	    dec	    hex	filename
+  11156	    124	    548	  11828	   2e34	NUCLEO_F401RE/HelloWorld.elf
+
+Building Blink
+Compiling main.c
+Compiling ../../src/gcc4mbed.c
+Linking LPC1768/Blink.elf
+Extracting LPC1768/Blink.bin
+Extracting LPC1768/Blink.hex
+Extracting disassembly to LPC1768/Blink.disasm
+   text	   data	    bss	    dec	    hex	filename
+   8328	    116	    552	   8996	   2324	LPC1768/Blink.elf
+
+Building Ticker
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC1768/Ticker.elf
+Extracting LPC1768/Ticker.bin
+Extracting LPC1768/Ticker.hex
+Extracting disassembly to LPC1768/Ticker.disasm
+   text	   data	    bss	    dec	    hex	filename
+   9968	    124	    664	  10756	   2a04	LPC1768/Ticker.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC11U24/Ticker.elf
+Extracting LPC11U24/Ticker.bin
+Extracting LPC11U24/Ticker.hex
+Extracting disassembly to LPC11U24/Ticker.disasm
+   text	   data	    bss	    dec	    hex	filename
+   8728	    128	    436	   9292	   244c	LPC11U24/Ticker.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking KL25Z/Ticker.elf
+Extracting KL25Z/Ticker.bin
+Extracting KL25Z/Ticker.hex
+Extracting disassembly to KL25Z/Ticker.disasm
+   text	   data	    bss	    dec	    hex	filename
+   9708	    128	    444	  10280	   2828	KL25Z/Ticker.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking NRF51822/Ticker.elf
+Extracting NRF51822/Ticker.bin
+Extracting NRF51822/Ticker.hex
+Extracting disassembly to NRF51822/Ticker.disasm
+   text	   data	    bss	    dec	    hex	filename
+  98504	    120	    500	  99124	  18334	NRF51822/Ticker.elf
+
+Building StdIO
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC1768/StdIO.elf
+Extracting LPC1768/StdIO.bin
+Extracting LPC1768/StdIO.hex
+Extracting disassembly to LPC1768/StdIO.disasm
+   text	   data	    bss	    dec	    hex	filename
+  12432	    120	    548	  13100	   332c	LPC1768/StdIO.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC11U24/StdIO.elf
+Extracting LPC11U24/StdIO.bin
+Extracting LPC11U24/StdIO.hex
+Extracting disassembly to LPC11U24/StdIO.disasm
+   text	   data	    bss	    dec	    hex	filename
+  11228	    124	    320	  11672	   2d98	LPC11U24/StdIO.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking KL25Z/StdIO.elf
+Extracting KL25Z/StdIO.bin
+Extracting KL25Z/StdIO.hex
+Extracting disassembly to KL25Z/StdIO.disasm
+   text	   data	    bss	    dec	    hex	filename
+  12208	    124	    328	  12660	   3174	KL25Z/StdIO.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking NRF51822/StdIO.elf
+Extracting NRF51822/StdIO.bin
+Extracting NRF51822/StdIO.hex
+Extracting disassembly to NRF51822/StdIO.disasm
+   text	   data	    bss	    dec	    hex	filename
+ 102480	    116	    652	 103248	  19350	NRF51822/StdIO.elf
+
+Building LocalFileSystem
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC1768/LocalFileSystem.elf
+Extracting LPC1768/LocalFileSystem.bin
+Extracting LPC1768/LocalFileSystem.hex
+Extracting disassembly to LPC1768/LocalFileSystem.disasm
+   text	   data	    bss	    dec	    hex	filename
+  17816	    128	    572	  18516	   4854	LPC1768/LocalFileSystem.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC11U24/LocalFileSystem.elf
+Extracting LPC11U24/LocalFileSystem.bin
+Extracting LPC11U24/LocalFileSystem.hex
+Extracting disassembly to LPC11U24/LocalFileSystem.disasm
+   text	   data	    bss	    dec	    hex	filename
+  16704	    132	    344	  17180	   431c	LPC11U24/LocalFileSystem.elf
+
+Building FileTest
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC1768/FileTest.elf
+Extracting LPC1768/FileTest.bin
+Extracting LPC1768/FileTest.hex
+Extracting disassembly to LPC1768/FileTest.disasm
+   text	   data	    bss	    dec	    hex	filename
+  15704	    128	    572	  16404	   4014	LPC1768/FileTest.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC11U24/FileTest.elf
+Extracting LPC11U24/FileTest.bin
+Extracting LPC11U24/FileTest.hex
+Extracting disassembly to LPC11U24/FileTest.disasm
+   text	   data	    bss	    dec	    hex	filename
+  14560	    132	    344	  15036	   3abc	LPC11U24/FileTest.elf
+
+Building SdPerf
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Compiling ../../external/mbed/libraries/fs/fat/FATDirHandle.cpp
+Compiling ../../external/mbed/libraries/fs/fat/FATFileHandle.cpp
+Compiling ../../external/mbed/libraries/fs/fat/FATFileSystem.cpp
+Compiling ../../external/mbed/libraries/fs/fat/ChaN/ccsbcs.cpp
+Compiling ../../external/mbed/libraries/fs/fat/ChaN/diskio.cpp
+Compiling ../../external/mbed/libraries/fs/fat/ChaN/ff.cpp
+Compiling ../../external/mbed/libraries/fs/sd/SDFileSystem.cpp
+Linking release library
+Linking LPC1768/SdPerf.elf
+Extracting LPC1768/SdPerf.bin
+Extracting LPC1768/SdPerf.hex
+Extracting disassembly to LPC1768/SdPerf.disasm
+   text	   data	    bss	    dec	    hex	filename
+  50648	    244	  34536	  85428	  14db4	LPC1768/SdPerf.elf
+
+Building TCPSocket_HelloWorld
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip-sys/arch/checksum.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip-sys/arch/memcpy.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip-sys/arch/sys_arch.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/api/api_lib.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/api/api_msg.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/api/err.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/api/netbuf.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/api/netdb.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/api/netifapi.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/api/sockets.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/api/tcpip.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/def.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/dhcp.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/dns.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/init.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/mem.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/memp.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/netif.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/pbuf.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/raw.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/stats.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/tcp.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/tcp_in.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/tcp_out.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/timers.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/udp.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/ipv4/autoip.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/ipv4/icmp.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/ipv4/igmp.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/ipv4/inet.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/ipv4/inet_chksum.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/ipv4/ip.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/ipv4/ip_addr.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/ipv4/ip_frag.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/snmp/asn1_dec.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/snmp/asn1_enc.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/snmp/mib2.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/snmp/mib_structs.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/snmp/msg_in.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/core/snmp/msg_out.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/etharp.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ethernetif.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/slipif.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/auth.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/chap.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/chpms.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/fsm.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/ipcp.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/lcp.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/magic.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/md5.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/pap.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/ppp.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/ppp_oe.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/randm.c
+Compiling ../../external/mbed/libraries/net/lwip/lwip/netif/ppp/vj.c
+Compiling ../../external/mbed/libraries/net/lwip/Socket/Endpoint.cpp
+Compiling ../../external/mbed/libraries/net/lwip/Socket/Socket.cpp
+Compiling ../../external/mbed/libraries/net/lwip/Socket/TCPSocketConnection.cpp
+Compiling ../../external/mbed/libraries/net/lwip/Socket/TCPSocketServer.cpp
+Compiling ../../external/mbed/libraries/net/lwip/Socket/UDPSocket.cpp
+Linking release library
+Compiling ../../external/mbed/libraries/net/eth/lwip-eth/arch/TARGET_NXP/lpc17_emac.c
+Compiling ../../external/mbed/libraries/net/eth/lwip-eth/arch/TARGET_NXP/lpc_phy_dp83848.c
+Compiling ../../external/mbed/libraries/net/eth/EthernetInterface/EthernetInterface.cpp
+Linking release library
+Compiling ../../external/mbed/libraries/rtos/rtx/HAL_CM.c
+Compiling ../../external/mbed/libraries/rtos/rtx/RTX_Conf_CM.c
+Compiling ../../external/mbed/libraries/rtos/rtx/rt_CMSIS.c
+Compiling ../../external/mbed/libraries/rtos/rtx/rt_Event.c
+Compiling ../../external/mbed/libraries/rtos/rtx/rt_List.c
+Compiling ../../external/mbed/libraries/rtos/rtx/rt_Mailbox.c
+Compiling ../../external/mbed/libraries/rtos/rtx/rt_MemBox.c
+Compiling ../../external/mbed/libraries/rtos/rtx/rt_Mutex.c
+Compiling ../../external/mbed/libraries/rtos/rtx/rt_Robin.c
+Compiling ../../external/mbed/libraries/rtos/rtx/rt_Semaphore.c
+Compiling ../../external/mbed/libraries/rtos/rtx/rt_System.c
+Compiling ../../external/mbed/libraries/rtos/rtx/rt_Task.c
+Compiling ../../external/mbed/libraries/rtos/rtx/rt_Time.c
+Compiling ../../external/mbed/libraries/rtos/rtos/Mutex.cpp
+Compiling ../../external/mbed/libraries/rtos/rtos/RtosTimer.cpp
+Compiling ../../external/mbed/libraries/rtos/rtos/Semaphore.cpp
+Compiling ../../external/mbed/libraries/rtos/rtos/Thread.cpp
+Assembling ../../external/mbed/libraries/rtos/rtx/TARGET_M3/TOOLCHAIN_GCC/HAL_CM3.s
+Assembling ../../external/mbed/libraries/rtos/rtx/TARGET_M3/TOOLCHAIN_GCC/SVC_Table.s
+Linking release library
+Linking LPC1768/TCPSocket_HelloWorld.elf
+Extracting LPC1768/TCPSocket_HelloWorld.bin
+Extracting LPC1768/TCPSocket_HelloWorld.hex
+Extracting disassembly to LPC1768/TCPSocket_HelloWorld.disasm
+   text	   data	    bss	    dec	    hex	filename
+  57148	    288	  34580	  92016	  16770	LPC1768/TCPSocket_HelloWorld.elf
+
+Building USBMouse
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Compiling ../../external/mbed/libraries/USBDevice/USBAudio/USBAudio.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBDevice.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_KL25Z.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_LPC11U.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_LPC17.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_LPC40.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_STM32F4.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBHID.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBKeyboard.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBMouse.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBMouseKeyboard.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBMIDI/USBMIDI.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBMSD/USBMSD.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBSerial/USBCDC.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBSerial/USBSerial.cpp
+Linking release library
+Linking LPC1768/USBMouse.elf
+Extracting LPC1768/USBMouse.bin
+Extracting LPC1768/USBMouse.hex
+Extracting disassembly to LPC1768/USBMouse.disasm
+   text	   data	    bss	    dec	    hex	filename
+  23204	    500	    944	  24648	   6048	LPC1768/USBMouse.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Compiling ../../external/mbed/libraries/USBDevice/USBAudio/USBAudio.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBDevice.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_KL25Z.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_LPC11U.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_LPC17.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_LPC40.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_STM32F4.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBHID.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBKeyboard.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBMouse.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBMouseKeyboard.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBMIDI/USBMIDI.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBMSD/USBMSD.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBSerial/USBCDC.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBSerial/USBSerial.cpp
+Linking release library
+Linking LPC11U24/USBMouse.elf
+Extracting LPC11U24/USBMouse.bin
+Extracting LPC11U24/USBMouse.hex
+Extracting disassembly to LPC11U24/USBMouse.disasm
+   text	   data	    bss	    dec	    hex	filename
+  26732	    508	    708	  27948	   6d2c	LPC11U24/USBMouse.elf
+
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Compiling ../../external/mbed/libraries/USBDevice/USBAudio/USBAudio.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBDevice.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_KL25Z.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_LPC11U.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_LPC17.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_LPC40.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBDevice/USBHAL_STM32F4.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBHID.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBKeyboard.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBMouse.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBHID/USBMouseKeyboard.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBMIDI/USBMIDI.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBMSD/USBMSD.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBSerial/USBCDC.cpp
+Compiling ../../external/mbed/libraries/USBDevice/USBSerial/USBSerial.cpp
+Linking release library
+Linking KL25Z/USBMouse.elf
+Extracting KL25Z/USBMouse.bin
+Extracting KL25Z/USBMouse.hex
+Extracting disassembly to KL25Z/USBMouse.disasm
+   text	   data	    bss	    dec	    hex	filename
+  28512	    508	   1604	  30624	   77a0	KL25Z/USBMouse.elf
+
+Building USBHostMouse
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Compiling ../../external/mbed/libraries/USBHost/USBHost/USBDeviceConnected.cpp
+Compiling ../../external/mbed/libraries/USBHost/USBHost/USBEndpoint.cpp
+Compiling ../../external/mbed/libraries/USBHost/USBHost/USBHALHost.cpp
+Compiling ../../external/mbed/libraries/USBHost/USBHost/USBHost.cpp
+Compiling ../../external/mbed/libraries/USBHost/USBHost3GModule/WANDongle.cpp
+Compiling ../../external/mbed/libraries/USBHost/USBHost3GModule/WANDongleSerialPort.cpp
+Compiling ../../external/mbed/libraries/USBHost/USBHostHID/USBHostKeyboard.cpp
+Compiling ../../external/mbed/libraries/USBHost/USBHostHID/USBHostMouse.cpp
+Compiling ../../external/mbed/libraries/USBHost/USBHostHub/USBHostHub.cpp
+Compiling ../../external/mbed/libraries/USBHost/USBHostMIDI/USBHostMIDI.cpp
+Compiling ../../external/mbed/libraries/USBHost/USBHostMSD/USBHostMSD.cpp
+Compiling ../../external/mbed/libraries/USBHost/USBHostSerial/USBHostSerial.cpp
+Linking release library
+Linking LPC1768/USBHostMouse.elf
+Extracting LPC1768/USBHostMouse.bin
+Extracting LPC1768/USBHostMouse.hex
+Extracting disassembly to LPC1768/USBHostMouse.disasm
+   text	   data	    bss	    dec	    hex	filename
+  28836	    256	   8772	  37864	   93e8	LPC1768/USBHostMouse.elf
+
+Building USBHostKeyboard
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC1768/USBHostKeyboard.elf
+Extracting LPC1768/USBHostKeyboard.bin
+Extracting LPC1768/USBHostKeyboard.hex
+Extracting disassembly to LPC1768/USBHostKeyboard.disasm
+   text	   data	    bss	    dec	    hex	filename
+  28988	    256	   8772	  38016	   9480	LPC1768/USBHostKeyboard.elf
+
+Building USBHostMSD
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC1768/USBHostMSD.elf
+Extracting LPC1768/USBHostMSD.bin
+Extracting LPC1768/USBHostMSD.hex
+Extracting disassembly to LPC1768/USBHostMSD.disasm
+   text	   data	    bss	    dec	    hex	filename
+  51876	    324	   9304	  61504	   f040	LPC1768/USBHostMSD.elf
+
+Building USBHostHub
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC1768/USBHostHub.elf
+Extracting LPC1768/USBHostHub.bin
+Extracting LPC1768/USBHostHub.hex
+Extracting disassembly to LPC1768/USBHostHub.disasm
+   text	   data	    bss	    dec	    hex	filename
+  30036	    256	   8772	  39064	   9898	LPC1768/USBHostHub.elf
+
+Building USBHostSerial
+Compiling main.cpp
+Compiling ../../src/gcc4mbed.c
+Linking LPC1768/USBHostSerial.elf
+Extracting LPC1768/USBHostSerial.bin
+Extracting LPC1768/USBHostSerial.hex
+Extracting disassembly to LPC1768/USBHostSerial.disasm
+   text	   data	    bss	    dec	    hex	filename
+  36868	    260	   8776	  45904	   b350	LPC1768/USBHostSerial.elf
+
+Building BLEHeartRate
+Compiling BLE_nRF51822/nordic/app_common/app_gpiote.c
+Compiling BLE_nRF51822/nordic/app_common/app_scheduler.c
+Compiling BLE_nRF51822/nordic/app_common/hci_mem_pool.c
+Compiling BLE_nRF51822/nordic/bootloader_dfu/bootloader_util_arm.c
+Compiling BLE_nRF51822/nordic/bootloader_dfu/dfu_app_handler.c
+Compiling main.cpp
+Compiling BLE_API/common/BLEDevice.cpp
+Compiling BLE_API/common/GapAdvertisingData.cpp
+Compiling BLE_API/common/GapAdvertisingParams.cpp
+Compiling BLE_API/common/GattService.cpp
+Compiling BLE_API/common/UUID.cpp
+Compiling BLE_API/services/DFUService.cpp
+Compiling BLE_API/services/UARTService.cpp
+Compiling BLE_nRF51822/nRF51822n.cpp
+Compiling BLE_nRF51822/nRF51Gap.cpp
+Compiling BLE_nRF51822/nRF51GattServer.cpp
+Compiling BLE_nRF51822/btle/btle.cpp
+Compiling BLE_nRF51822/btle/btle_advertising.cpp
+Compiling BLE_nRF51822/btle/btle_gap.cpp
+Compiling BLE_nRF51822/btle/custom/custom_helper.cpp
+Compiling BLE_nRF51822/nordic/softdevice_handler.cpp
+Compiling BLE_nRF51822/nordic/app_common/crc16.cpp
+Compiling BLE_nRF51822/nordic/app_common/pstorage.cpp
+Compiling BLE_nRF51822/nordic/ble/ble_advdata.cpp
+Compiling BLE_nRF51822/nordic/ble/ble_advdata_parser.cpp
+Compiling BLE_nRF51822/nordic/ble/ble_bondmngr.cpp
+Compiling BLE_nRF51822/nordic/ble/ble_conn_params.cpp
+Compiling BLE_nRF51822/nordic/ble/ble_debug_assert_handler.cpp
+Compiling BLE_nRF51822/nordic/ble/ble_error_log.cpp
+Compiling BLE_nRF51822/nordic/ble/ble_services/ble_srv_common.cpp
+Compiling ../../src/gcc4mbed.c
+Linking NRF51822/BLEHeartRate.elf
+Extracting NRF51822/BLEHeartRate.bin
+Extracting NRF51822/BLEHeartRate.hex
+Extracting disassembly to NRF51822/BLEHeartRate.disasm
+   text	   data	    bss	    dec	    hex	filename
+ 106980	    128	   1288	 108396	  1a76c	NRF51822/BLEHeartRate.elf
+
+Sat Nov 15 16:58:07 PST 2014 Executing rm /Users/suryanshu/buckLabs/compiler/gcc-arm-none-eabi-4_8-2014q1-20140314-mac.tar.bz2
+Sat Nov 15 16:58:07 PST 2014 Finished successfully
